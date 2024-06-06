@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "Ottawa",
+    "LandingFee": 100,
+    "X": 4,
+    "Y": 4
+  },
+  {
+    "Name": "Washington",
+    "LandingFee": 150,
+    "X": 3,
+    "Y": 6
+  },
+  {
+    "Name": "Brasilia",
+    "LandingFee": 100,
+    "X": 4,
+    "Y": 9
+  },
+  {
+    "Name": "Santiago",
+    "LandingFee": 50,
+    "X": 3,
+    "Y": 11
+  },
+  {
+    "Name": "Cape Town",
+    "LandingFee": 30,
+    "X": 8,
+    "Y": 10
+  },
+  {
+    "Name": "Brussels",
+    "LandingFee": 75,
+    "X": 7,
+    "Y": 5
+  },
+  {
+    "Name": "Moscow",
+    "LandingFee": 100,
+    "X": 9,
+    "Y": 5
+  },
+  {
+    "Name": "Rome",
+    "LandingFee": 50,
+    "X": 8,
+    "Y": 6
+  },
+  {
+    "Name": "Dakar",
+    "LandingFee": 10,
+    "X": 6,
+    "Y": 8
+  },
+  {
+    "Name": "New Delhi",
+    "LandingFee": 20,
+    "X": 10,
+    "Y": 7
+  },
+  {
+    "Name": "Beijing",
+    "LandingFee": 50,
+    "X": 12,
+    "Y": 6
+  },
+  {
+    "Name": "Sydney",
+    "LandingFee": 100,
+    "X": 14,
+    "Y": 11
+  },
+  {
+    "Name": "Singapore",
+    "LandingFee": 50,
+    "X": 12,
+    "Y": 8
+  }
+]

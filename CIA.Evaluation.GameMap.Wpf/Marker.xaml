@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="CIA.Evaluation.Wpf.Marker"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CIA.Evaluation.Wpf"
+             mc:Ignorable="d" 
+             IsHitTestVisible="False"
+             d:DesignHeight="55" d:DesignWidth="55">
+    <Image Source="Content/marker.png" RenderTransformOrigin="0.5,0" IsHitTestVisible="False">
+        <Image.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleX="0.8" ScaleY="0.8"/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Image.RenderTransform>
+        <Image.Effect>
+            <DropShadowEffect Opacity="0.45" />
+        </Image.Effect>
+    </Image>
+</UserControl>

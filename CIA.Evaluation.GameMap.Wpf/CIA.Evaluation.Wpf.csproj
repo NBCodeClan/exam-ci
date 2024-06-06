@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\airport-locations.json" />
+    <None Remove="Content\arrowkeys.png" />
+    <None Remove="Content\kcdmap.png" />
+    <None Remove="Content\marker.png" />
+    <None Remove="Content\worldmap.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\airport-locations.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\marker.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\worldmap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CIA.Evaluation.Core\CIA.Evaluation.Core.csproj" />
+    <ProjectReference Include="..\CIA.Evaluation.Infrastructure\CIA.Evaluation.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
