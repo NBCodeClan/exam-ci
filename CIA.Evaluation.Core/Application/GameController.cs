@@ -8,7 +8,7 @@ namespace CIA.Evaluation.Core.Application
     {
         private readonly IGamePresenter _presenter;
         private readonly IAirportRepository _airportRepository;
-        private readonly IMap _map;
+        private readonly IMap _map;d
 
         private int _mapSize;
         private Traveller _traveller;
