@@ -18,7 +18,7 @@ namespace CIA.Evaluation.Core.Tests
         [Theory]
         [InlineData(2, 2, 4, 4, 2.83)]
         [InlineData(0, 6, 5, 8, 5.39)]
-        public void DistanceTo_RoundedTwoDecimals(int x1, int y1, int x2, int y2, double expectedDistance)
+        public void DistanceTo_WithAirports_RoundsDistanceToTwoDecimals(int x1, int y1, int x2, int y2, double expectedDistance)
         {
             //arrange
             var origin = new Airport { X = x1, Y = y1 };
@@ -33,11 +33,6 @@ namespace CIA.Evaluation.Core.Tests
             Assert.Equal(expectedDistance, disctanceAirports, 2);
 
         }
-
-
-
-
-
 
         [Fact]
         public void GetAirportAt_ShouldReturnCorrectAirport()
